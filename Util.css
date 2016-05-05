@@ -1,0 +1,92 @@
+html {
+   font-size: 1.3em;
+   height: 100%;
+   background-color: #f8f8f8;
+}
+body {
+   height: 100%;
+   font: normal 100% Helvetica, Arial, sans-serif;
+}
+a{
+  text-decoration: none;
+}
+a:visited{
+  color: #101010;
+}
+
+header, main, footer{
+   box-sizing: content-box;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+header{
+   border-bottom: solid 1px #bbbbbb;
+}
+#headwrap{
+   width: 90%;
+   display: flex;
+   line-height: 2.5em;
+}
+#btn{
+   flex: 1;
+}
+#btn a{
+   display: inline-block;
+   border: solid 1px #575757;
+   width: 1.8em;
+   height: 1.8em;
+   line-height: 1.8em;
+   text-align: center;
+   position: relative;
+   background: #fff;
+   cursor: pointer;
+}
+#btn a:after{
+   content: '';
+   display: inline-block;
+}
+#btn a:before{
+   content: '';
+   width: .7em;
+   height: .7em;
+   position: absolute;
+   left: 40%;
+   top: 24%;
+   border-bottom: solid .25em;
+   border-left: solid .25em;
+   transform: rotate(45deg);
+   -ms-transform:rotate(45deg);
+   -moz-transform:rotate(45deg);
+   -webkit-transform:rotate(45deg);
+   -o-transform:rotate(45deg);
+}
+#title{
+    display: inline-block;
+    flex: 10;
+    text-align: center;
+    font-size: 1.1em;
+}
+
+
+#mainwrap{
+    width: 90%;
+    font-size: .9em;
+}
+#mainwrap h4{
+    font-size: 1.1em;
+    font-weight: 100;
+    line-height: 2.5em;
+    border-bottom: 1px solid #bbbbbb;
+    color: #7e86b0;
+}
+#mainwrap h4:after{
+    content: '';
+    width: 30%;
+    display: block;
+    border-bottom: solid 1px #101010;
+}
+
+footer{
+    font-size: .8em;
+}
