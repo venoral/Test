@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>新闻列表页</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  <meat name="applicable-device" content="pc,mobile">
+  <meta name="renderer" content="webkit">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="format-detection" content="telphone=no, email=no">
+  <meta name="screen-orientation" content="portrait">
+  <meta name="x5-orientation" content="portrait">
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="http://meyerweb.com/eric/tools/css/reset/reset200802.css">
+  <link rel="stylesheet" type="text/css" href="Util.css">
+  <style type="text/css">
+    #devpages{
+        font-size: .625rem;
+        color: #333333;
+        text-align: center;
+        line-height: 2.5rem;
+    }
+    #devpages a.num{
+        text-decoration: underline;
+        padding: .5rem;
+    }
+    #mainwrap li{
+        line-height: 2.5rem;
+        border-bottom: 1px dotted #bbbbbb;
+        overflow: hidden;
+        cursor: pointer;
+        font-size: .75rem;
+        color: #333333;
+    }
+    #mainwrap span{
+        display: inline-block;
+    }
+    #mainwrap .listtitle{
+        float: left;
+        width: 80%;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    #mainwrap .newsdate{
+        float: right;
+    }
+
+    .disabled{
+        color: #666666 !important;
+        text-decoration: none !important;
+    }
+
+  </style>
+  <script type="text/javascript" src="fitfontSize.js"></script>
+</head>
+<body>
+
+  <header>
+     <h4>
+      西邮要闻
+     </h4>
+  </header>
+
+  <main>
+    <div id="mainwrap">
+      <ul>
+        <li>
+          <span class="listtitle"><a href="ContentNews.html">题目收到的是几位给反而的是分米哦你的是的</a></span>
+          <span class="newsdate">x月x日</span>
+        </li>
+        <li>
+          <span class="listtitle"><a href="">题目</a></span>
+          <span class="newsdate">x月x日</span>
+        </li>
+        <li>
+          <span class="listtitle"><a href="">题目</a></span>
+          <span class="newsdate">x月x日</span>
+        </li>
+        <li>
+          <span class="listtitle"><a href="">题目</a></span>
+          <span class="newsdate">x月x日</span>
+        </li>
+        <li>
+          <span class="listtitle"><a href="">题目</a></span>
+          <span class="newsdate">x月x日</span>
+        </li>
+        <li>
+          <span class="listtitle"><a href="">题目</a></span>
+          <span class="newsdate">x月x日</span>
+        </li>
+        <li>
+          <span class="listtitle"><a href="">题目</a></span>
+          <span class="newsdate">x月x日</span>
+        </li>
+        <li>
+          <span class="listtitle"><a href="">题目</a></span>
+          <span class="newsdate">x月x日</span>
+        </li>
+        <li>
+          <span class="listtitle"><a href="">题目</a></span>
+          <span class="newsdate">x月x日</span>
+        </li>
+        <li>
+          <span class="listtitle"><a href="">题目</a></span>
+          <span class="newsdate">x月x日</span>
+        </li>
+        <li>
+          <span class="listtitle"><a href="">题目</a></span>
+          <span class="newsdate">x月x日</span>
+        </li>
+        <li>
+          <span class="listtitle"><a href="">题目</a></span>
+          <span class="newsdate">x月x日</span>
+        </li>
+        <li>
+          <span class="listtitle"><a href="">题目</a></span>
+          <span class="newsdate">x月x日</span>
+        </li>
+        <li>
+          <span class="listtitle"><a href="">题目</a></span>
+          <span class="newsdate">x月x日</span>
+        </li>
+        <li>
+          <span class="listtitle"><a href="">题目</a></span>
+          <span class="newsdate">x月x日</span>
+        </li>
+      </ul>
+
+      <!--分页区 -->
+      <div id="devpages">
+        <a href="" title="首页" data-state="0">首页</a> 
+        <a href="" title="上一页" data-state="0">上一页</a> <
+        <a href="" title="1" class="num disabled" data-state="1"> 1</a>
+        <a href="" title="2" class="num" data-state="0"> 2</a>
+        <a href="" title="3" class="num" data-state="0"> 3</a>
+        <a href="" title="4" class="num" data-state="0"> 4</a>
+        > <a href="" title="下一页" data-state="0">下一页</a>
+        <a href="" title="尾页" data-state="0">尾页</a> 
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    Copyright©CreatShare2016
+  </footer>
+  <script type="text/javascript">
+  !(function (doc, win) {
+      var $a = document.querySelectorAll('#devpages a'),
+           len = $a.length, i;
+      for(i = 0; i< len; i++){
+        $a[i].addEventListener('click', function (event) {
+             var target = event.target || event.currentTarget;
+             var curstate = target.dataset.state ;
+             if( curstate == '1'){
+                     for(i = 0; i< len; i++){
+                           if($a[i].classList.contains('disabled')){
+                               $a[i].classList.remove('disabled');
+                           } 
+                     }
+                    target.classList.add('disabled');
+                    event.preventDefault();
+             }
+        })
+      }
+  }(document, window))
+    
+  </script>
+</body>
+</html>
