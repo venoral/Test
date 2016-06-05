@@ -129,7 +129,7 @@
 
       <!--分页区 -->
       <div id="devpages">
-        <a href="" title="首页" data-state="0">首页</a> 
+        <a href="" title="首页" data-state="0" >首页</a> 
         <a href="" title="上一页" data-state="0">上一页</a> <
         <a href="" title="1" class="num disabled" data-state="1"> 1</a>
         <a href="" title="2" class="num" data-state="0"> 2</a>
@@ -149,19 +149,15 @@
       var $a = document.querySelectorAll('#devpages a'),
            len = $a.length, i;
       for(i = 0; i< len; i++){
-        $a[i].addEventListener('click', function (event) {
-             var target = event.target || event.currentTarget;
-             var curstate = target.dataset.state ;
-             if( curstate == '1'){
-                     for(i = 0; i< len; i++){
-                           if($a[i].classList.contains('disabled')){
-                               $a[i].classList.remove('disabled');
-                           } 
-                     }
-                    target.classList.add('disabled');
-                    event.preventDefault();
-             }
-        })
+           var state = $a[i].dataset.state;
+           if( state === '1'){
+                $a[i].classList.add('disabled');
+                $a[i].onclick = function (event) {
+                   return false;
+                }
+           } else{
+                $a[i].classList.remove('disabled');
+           }
       }
   }(document, window))
     
