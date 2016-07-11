@@ -55,11 +55,11 @@ HTML,CSS这个目测实验室前端同学都已经入门了吧，至少会写静
 
 #####（4）推荐阅读网站但不限于这些网站
 闲了没事可以看看逛逛，网络上好的资源那简直太多了，这里简单罗列几个。自己多总结收藏啊，要有一颗善于发现的心。
-腾讯全端AlloyTeam团队Blog http://www.alloyteam.com/
-奇舞团博客 http://www.75team.com/
-淘宝FED http://taobaofed.org/
-浏览器工作原理 http://www.html5rocks.com/zh/tutorials/internals/howbrowserswork/
-酷壳 http://coolshell.cn/
+* 腾讯全端AlloyTeam团队Blog http://www.alloyteam.com/
+* 奇舞团博客 http://www.75team.com/
+* 淘宝FED http://taobaofed.org/
+* 浏览器工作原理 http://www.html5rocks.com/zh/tutorials/internals/howbrowserswork/
+* 酷壳 http://coolshell.cn/
 ...
 
 #####（5）遇到问题
