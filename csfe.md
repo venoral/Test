@@ -39,9 +39,9 @@ HTML,CSS这个目测实验室前端同学都已经入门了吧，至少会写静
 
 进阶：
 * JavaScript 标准参考教程 http://javascript.ruanyifeng.com/
-*《JavaScript高级程序设计》——比较全面，相对可阅读性强 
-*《JavaScript权威指南》——适合当工具书看
-*《JavaScript语言精粹》——帮助你快速了解JS的精华部分
+* 《JavaScript高级程序设计》——比较全面，相对可阅读性强 **重要**
+* 《JavaScript权威指南》——适合当工具书看
+* 《JavaScript语言精粹》——帮助你快速了解JS的精华部分
 
 温馨提示：要是看不懂多读几遍就看懂了
 
