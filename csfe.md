@@ -5,10 +5,15 @@
 学习是开放式的，本列表为一种建议（建议这些但前端不限于这些），也可按照自己的学习路径学习（合适自己的才是最好的），但是不管通过什么方式最终都要能收获知识并且做出东西，希望你们自觉学习珍惜时间呐，暑假不荒废~
 
 ###假期任务
-* 自我学习提高技能（这个假期主攻JS），完成以下三个任务：
- * UI组件之浮出层 http://ife.baidu.com/task/detail?taskId=37 
- * 多功能相册之瀑布布局 http://ife.baidu.com/task/detail?taskId=44
- * 在http://www.templatemonster.com/ 任选一个模板完成该模板网站页面和其交互。
+* 自我学习提高技能（这个假期主攻JS），完成以下两至三个任务：
+ * （必做）UI组件之浮出层 http://ife.baidu.com/task/detail?taskId=37 
+ * （必做）跨域请求实现搜索的搜索框
+    定位目的：了解Http通信概念，学习掌握ajax，JSON数据格式，跨域访问等。
+    参考资料：
+    * Ajax全接触 http://www.imooc.com/learn/250
+    * 搜索框的制作 http://www.imooc.com/learn/21
+    * JavaScript跨域总结与解决办法 http://www.cnblogs.com/rainman/archive/2011/02/20/1959325.html
+    * js中几种实用的跨域方法原理详解 http://www.cnblogs.com/2050/p/3191744.html
  
 基本要求：学习任务比较多，三个任务均使用HTML,CSS,原生JS,不能使用CSS和JS的框架，根据自己能力能做到啥程度最后提交啥程度，但是还是希望同学们严格要求自己。
 
