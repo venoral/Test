@@ -12,18 +12,22 @@
  * （必做）跨域请求实现搜索的搜索框，布局样式可以自行设计
  
     定位目的：了解Http通信概念，学习掌握ajax，JSON数据格式，跨域访问等。
+ * （选做）留言板，布局样式可以自行设计，要求实现发送留言内容的请求，并获得服务器端"留言成功"的响应。有能力的同学可以实现数据存储。
+    
+    定位目的：了解Http通信概念，学习掌握ajax，了解后端语言，请求响应具体流程。
 
     参考资料：
     * MDN AJAX https://developer.mozilla.org/zh-CN/docs/AJAX/Getting_Started
     * JavaScript中的AJAX http://web.jobbole.com/86097/
     * Ajax全接触 http://www.imooc.com/learn/250
+    * windows下PHP环境的搭建 https://segmentfault.com/a/1190000003409708?name=php&description=&isPrivate=1
     * 搜索框的制作 http://www.imooc.com/learn/21
     * JavaScript跨域总结与解决办法 http://www.cnblogs.com/rainman/archive/2011/02/20/1959325.html
     * js中几种实用的跨域方法原理详解 http://www.cnblogs.com/2050/p/3191744.html
     
 基本要求：
     
-    两个任务均使用HTML,CSS,原生JS,不能使用CSS和JS的框架，最后将代码和文档提交到自己的库。
+    三个任务均使用HTML,CSS,原生JS,不能使用CSS和JS的框架，最后将代码和文档提交到自己的库。
     每个项目需要写文档（包括设计思路，使用技术等），格式为md文件。
     根据自己能力能做到啥程度最后提交啥程度，但是还是希望同学们严格要求自己认真对待，拿出该有的态度，我可能不会监督这全靠自觉。
 
